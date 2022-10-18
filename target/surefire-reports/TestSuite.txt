@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 237.517 s <<< FAILURE! - in TestSuite
+selectSingleContactsTest(com.freecrm.testcases.ContactsPageTest)  Time elapsed: 2.586 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Gojo')]//parent::td[@class='datalistrow']/preceding-sibling::td[@class='datalistrow']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-50-generic', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad5632361c07cea08805b024d3c31e4d, findElement {using=xpath, value=//a[contains(text(),'Gojo')]//parent::td[@class='datalistrow']/preceding-sibling::td[@class='datalistrow']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.I9sbNb}, goog:chromeOptions: {debuggerAddress: localhost:37199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:37199/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ad5632361c07cea08805b024d3c31e4d
+	at com.freecrm.testcases.ContactsPageTest.selectSingleContactsTest(ContactsPageTest.java:55)
+
+selectMultipleContactsTest(com.freecrm.testcases.ContactsPageTest)  Time elapsed: 1.98 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Gojo')]//parent::td[@class='datalistrow']/preceding-sibling::td[@class='datalistrow']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-50-generic', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [126f34d7dc3cf419a5b0ef8e5055daaf, findElement {using=xpath, value=//a[contains(text(),'Gojo')]//parent::td[@class='datalistrow']/preceding-sibling::td[@class='datalistrow']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.ub1mUM}, goog:chromeOptions: {debuggerAddress: localhost:36291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36291/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 126f34d7dc3cf419a5b0ef8e5055daaf
+	at com.freecrm.testcases.ContactsPageTest.selectMultipleContactsTest(ContactsPageTest.java:63)
+
